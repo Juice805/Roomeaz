@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54B0F13729E34728C5D23B57 /* Pods_RoomeazUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CCF9C999FC145D1FA5361C8 /* Pods_RoomeazUITests.framework */; };
+		5DA9735EF8C8541F8FB7F1EB /* Pods_RoomeazTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA794BDDFF58134F0150D38B /* Pods_RoomeazTests.framework */; };
+		C70305B57FA227232C7A8FB3 /* Pods_Roomeaz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1F1F861E2D1DF84ED48F793 /* Pods_Roomeaz.framework */; };
+		D00184D31CED70D900367F9B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D00184D21CED70D900367F9B /* GoogleService-Info.plist */; };
 		D0670D2A1C70265C004BBFEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0670D291C70265C004BBFEE /* AppDelegate.swift */; };
 		D0670D2C1C70265C004BBFEE /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0670D2B1C70265C004BBFEE /* FirstViewController.swift */; };
 		D0670D2E1C70265C004BBFEE /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0670D2D1C70265C004BBFEE /* SecondViewController.swift */; };
@@ -35,6 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		26ECA93DDDE51F8F03611004 /* Pods-RoomeazUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoomeazUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RoomeazUITests/Pods-RoomeazUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2CCF9C999FC145D1FA5361C8 /* Pods_RoomeazUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RoomeazUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BA02D6C6946697E1DF2E221 /* Pods-Roomeaz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Roomeaz.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Roomeaz/Pods-Roomeaz.debug.xcconfig"; sourceTree = "<group>"; };
+		A68B67CF1E6F8A95947D2059 /* Pods-RoomeazTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoomeazTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RoomeazTests/Pods-RoomeazTests.release.xcconfig"; sourceTree = "<group>"; };
+		B1115B7FDAF68BA6E840B46C /* Pods-RoomeazTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoomeazTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RoomeazTests/Pods-RoomeazTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B299868517A608AE73FB8E2D /* Pods-Roomeaz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Roomeaz.release.xcconfig"; path = "Pods/Target Support Files/Pods-Roomeaz/Pods-Roomeaz.release.xcconfig"; sourceTree = "<group>"; };
+		CA794BDDFF58134F0150D38B /* Pods_RoomeazTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RoomeazTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D00184D21CED70D900367F9B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D0670D261C70265C004BBFEE /* Roomeaz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roomeaz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0670D291C70265C004BBFEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0670D2B1C70265C004BBFEE /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +61,8 @@
 		D0670D471C70265C004BBFEE /* RoomeazUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoomeazUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0670D4B1C70265C004BBFEE /* RoomeazUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomeazUITests.swift; sourceTree = "<group>"; };
 		D0670D4D1C70265C004BBFEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1F1F861E2D1DF84ED48F793 /* Pods_Roomeaz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Roomeaz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBE51BD3F1FB5CB5F834845A /* Pods-RoomeazUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoomeazUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RoomeazUITests/Pods-RoomeazUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C70305B57FA227232C7A8FB3 /* Pods_Roomeaz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DA9735EF8C8541F8FB7F1EB /* Pods_RoomeazTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54B0F13729E34728C5D23B57 /* Pods_RoomeazUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		38FAD93C6D3C5EC38AE9CF1C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4BA02D6C6946697E1DF2E221 /* Pods-Roomeaz.debug.xcconfig */,
+				B299868517A608AE73FB8E2D /* Pods-Roomeaz.release.xcconfig */,
+				B1115B7FDAF68BA6E840B46C /* Pods-RoomeazTests.debug.xcconfig */,
+				A68B67CF1E6F8A95947D2059 /* Pods-RoomeazTests.release.xcconfig */,
+				26ECA93DDDE51F8F03611004 /* Pods-RoomeazUITests.debug.xcconfig */,
+				FBE51BD3F1FB5CB5F834845A /* Pods-RoomeazUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B11E8B35FF402AD58C5EEDC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1F1F861E2D1DF84ED48F793 /* Pods_Roomeaz.framework */,
+				CA794BDDFF58134F0150D38B /* Pods_RoomeazTests.framework */,
+				2CCF9C999FC145D1FA5361C8 /* Pods_RoomeazUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D0670D1D1C70265C004BBFEE = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +123,8 @@
 				D0670D3F1C70265C004BBFEE /* RoomeazTests */,
 				D0670D4A1C70265C004BBFEE /* RoomeazUITests */,
 				D0670D271C70265C004BBFEE /* Products */,
+				38FAD93C6D3C5EC38AE9CF1C /* Pods */,
+				B11E8B35FF402AD58C5EEDC7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +148,7 @@
 				D0670D321C70265C004BBFEE /* Assets.xcassets */,
 				D0670D341C70265C004BBFEE /* LaunchScreen.storyboard */,
 				D0670D371C70265C004BBFEE /* Info.plist */,
+				D00184D21CED70D900367F9B /* GoogleService-Info.plist */,
 			);
 			path = Roomeaz;
 			sourceTree = "<group>";
@@ -135,9 +178,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0670D501C70265C004BBFEE /* Build configuration list for PBXNativeTarget "Roomeaz" */;
 			buildPhases = (
+				F230196557861FBA2BD5E5A5 /* 📦 Check Pods Manifest.lock */,
 				D0670D221C70265C004BBFEE /* Sources */,
 				D0670D231C70265C004BBFEE /* Frameworks */,
 				D0670D241C70265C004BBFEE /* Resources */,
+				2218F245CABCA10D90E2EC0B /* 📦 Embed Pods Frameworks */,
+				6F88C013A9DDFF638BFCACE5 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0670D531C70265C004BBFEE /* Build configuration list for PBXNativeTarget "RoomeazTests" */;
 			buildPhases = (
+				E6FD21B9F1A6625421FB1473 /* 📦 Check Pods Manifest.lock */,
 				D0670D381C70265C004BBFEE /* Sources */,
 				D0670D391C70265C004BBFEE /* Frameworks */,
 				D0670D3A1C70265C004BBFEE /* Resources */,
+				777E0322A533E508568EC4F7 /* 📦 Embed Pods Frameworks */,
+				F42ECABF8ACB38FD7C39E02F /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0670D561C70265C004BBFEE /* Build configuration list for PBXNativeTarget "RoomeazUITests" */;
 			buildPhases = (
+				36E430D712D59615075C386A /* 📦 Check Pods Manifest.lock */,
 				D0670D431C70265C004BBFEE /* Sources */,
 				D0670D441C70265C004BBFEE /* Frameworks */,
 				D0670D451C70265C004BBFEE /* Resources */,
+				B186DF2F8C096401BD7ACDD2 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0670D361C70265C004BBFEE /* LaunchScreen.storyboard in Resources */,
+				D00184D31CED70D900367F9B /* GoogleService-Info.plist in Resources */,
 				D0670D331C70265C004BBFEE /* Assets.xcassets in Resources */,
 				D0670D311C70265C004BBFEE /* Main.storyboard in Resources */,
 			);
@@ -254,6 +306,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2218F245CABCA10D90E2EC0B /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Roomeaz/Pods-Roomeaz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36E430D712D59615075C386A /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6F88C013A9DDFF638BFCACE5 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Roomeaz/Pods-Roomeaz-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		777E0322A533E508568EC4F7 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RoomeazTests/Pods-RoomeazTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B186DF2F8C096401BD7ACDD2 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RoomeazUITests/Pods-RoomeazUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6FD21B9F1A6625421FB1473 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F230196557861FBA2BD5E5A5 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F42ECABF8ACB38FD7C39E02F /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RoomeazTests/Pods-RoomeazTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D0670D221C70265C004BBFEE /* Sources */ = {
@@ -402,6 +577,7 @@
 		};
 		D0670D511C70265C004BBFEE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BA02D6C6946697E1DF2E221 /* Pods-Roomeaz.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -416,6 +592,7 @@
 		};
 		D0670D521C70265C004BBFEE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B299868517A608AE73FB8E2D /* Pods-Roomeaz.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -430,6 +607,7 @@
 		};
 		D0670D541C70265C004BBFEE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1115B7FDAF68BA6E840B46C /* Pods-RoomeazTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = RoomeazTests/Info.plist;
@@ -442,6 +620,7 @@
 		};
 		D0670D551C70265C004BBFEE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A68B67CF1E6F8A95947D2059 /* Pods-RoomeazTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = RoomeazTests/Info.plist;
@@ -454,6 +633,7 @@
 		};
 		D0670D571C70265C004BBFEE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26ECA93DDDE51F8F03611004 /* Pods-RoomeazUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = RoomeazUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -466,6 +646,7 @@
 		};
 		D0670D581C70265C004BBFEE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBE51BD3F1FB5CB5F834845A /* Pods-RoomeazUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = RoomeazUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -495,6 +676,7 @@
 				D0670D521C70265C004BBFEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D0670D531C70265C004BBFEE /* Build configuration list for PBXNativeTarget "RoomeazTests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +685,7 @@
 				D0670D551C70265C004BBFEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D0670D561C70265C004BBFEE /* Build configuration list for PBXNativeTarget "RoomeazUITests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +694,7 @@
 				D0670D581C70265C004BBFEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
