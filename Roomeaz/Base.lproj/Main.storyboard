@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -16,7 +16,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="Occ-xd-f60">
-                                <rect key="frame" x="0.0" y="92" width="600" height="44"/>
+                                <rect key="frame" x="0.0" y="28" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Occ-xd-f60" id="BQd-05-eYL">
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
@@ -29,6 +29,7 @@
                             <outlet property="delegate" destination="jQW-IV-vrC" id="P0y-81-CTb"/>
                         </connections>
                     </tableView>
+                    <tabBarItem key="tabBarItem" title="Item" id="qpV-C8-Oqc"/>
                     <navigationItem key="navigationItem" title="Roomate Listings" id="nZj-1W-jT8">
                         <barButtonItem key="backBarButtonItem" title="Cancel" id="t5k-S0-w01"/>
                         <barButtonItem key="rightBarButtonItem" title="Item" systemItem="add" id="OGd-en-Hga">
@@ -42,10 +43,10 @@
             </objects>
             <point key="canvasLocation" x="1478" y="-360"/>
         </scene>
-        <!--View Controller-->
+        <!--AuthUI Base View Controller-->
         <scene sceneID="Fkx-Yd-bme">
             <objects>
-                <viewController id="bfY-aY-r48" sceneMemberID="viewController">
+                <viewController id="bfY-aY-r48" customClass="FIRAuthUIBaseViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="UMn-gx-TFB"/>
                         <viewControllerLayoutGuide type="bottom" id="WU6-Yy-K82"/>
@@ -148,6 +149,7 @@
                     <connections>
                         <segue destination="7D7-Tv-nCL" kind="relationship" relationship="viewControllers" id="eQG-A3-MBf"/>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
+                        <segue destination="jQW-IV-vrC" kind="relationship" relationship="viewControllers" id="ogX-Bv-3VK"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
@@ -158,4 +160,7 @@
     <resources>
         <image name="second" width="30" height="30"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="ogX-Bv-3VK"/>
+    </inferredMetricsTieBreakers>
 </document>
